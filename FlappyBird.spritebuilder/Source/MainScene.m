@@ -200,6 +200,7 @@
                 }
             }
         }
+    }
     _sinceTouch += delta;
     
     character.rotation = clampf(character.rotation, -30.f, 90.f);
@@ -227,7 +228,6 @@
             ground.position = ccp(ground.position.x + 2 * ground.contentSize.width, ground.position.y);
         }
     }
-}
     
     NSMutableArray *offScreenObstacles = nil;
     
